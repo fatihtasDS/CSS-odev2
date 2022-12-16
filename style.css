@@ -1,0 +1,69 @@
+/**** Metinleri ortalamak ve sayfayı dikey olarak hizalamak amacıyla container class ını düzenledim****/
+.container{
+    text-align: center;
+    padding: 10% 0;
+}
+
+/* Arama butonunun arka plan rengi ve butonun uzunluğu için*/
+.bg-gray{
+    background-color: #E7E9EB;
+}
+.bg-gray>input{
+    width: 30%;
+}
+
+/* Tüm li etiketlerinin type ı olmaması gerekiyor*/
+li{
+   list-style-type: none;
+}
+
+/* Kutulara ait özelikleri id ile düzenledim*/
+#box-one{
+    float: left;
+    width: 36%;
+    margin: 5px 0;
+    margin-right: 0.5%;
+    height: 80px;
+    background-color: turquoise;
+}
+#box-two{
+    float: left;
+    width: 20%;
+    font-size: 14px;
+    margin: 5px 0;
+    margin-right: 0.5%;
+    height: 80px;
+    background-color: mediumturquoise;
+}
+#box-three{
+    float: left;
+    width: 43%;
+    font-size: 14px;
+    margin: 5px 0;
+    height: 80px;
+    background-color: mediumturquoise
+}
+
+/* Kutular içindeki etiketlerin dikey olarak hızalanması için bu class ları oluşturdum*/
+.table{
+    display: table;
+}
+.x{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/* Float kullanımı sonrası kalan boşluğu temizlemek için*/
+.clear{
+    clear: both;
+}
+/*Butonların üzerindeki iki p etiketininde dikey olarak margini sıfırlamak için bu class ı oluşturdum*/
+.mg-bt{
+    margin: 0;
+}
+
+footer{
+    font-size: 14px;
+}
+
+
